@@ -1,6 +1,6 @@
 # Example of usage: RAPID vs. other training methods. Part of
-# Efficient training of energy-based models via frustration reduction
-# arXiv:
+# Efficient training of energy-based models via spin-glass control
+# arXiv:1910.01592
 #
 # Authors: Alejandro Pozas-Kerstjens and Gorka Muñoz-Gil
 #
@@ -12,7 +12,6 @@
 #           matplotlib for plots
 #           tqdm for progress bar
 # Last modified: Oct, 2019
-
 import gc
 import matplotlib.pyplot as plt
 import numpy as np

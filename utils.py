@@ -1,6 +1,6 @@
 # Additional functions for the computational appendix of
-# Efficient training of energy-based models via frustration reduction
-# arXiv:
+# Efficient training of energy-based models via spin-glass control
+# arXiv:1910.01592
 #
 # Authors: Alejandro Pozas-Kerstjens and Gorka Muñoz-Gil
 #
