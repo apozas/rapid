@@ -1,3 +1,5 @@
+[![DOI](https://www.zenodo.org/badge/212395664.svg)](https://www.zenodo.org/badge/latestdoi/212395664)
+
 ## Code to accompany *[Efficient training of energy-based models via spin-glass control](https://www.arxiv.org/abs/1910.01592)*
 #### Alejandro Pozas-Kerstjens, Gorka Muñoz-Gil, Miguel Angel García-March, Antonio Acín, Maciej Lewenstein, and Przemyslaw R. Grzybowski
 
