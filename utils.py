@@ -147,7 +147,7 @@ def gs_energy(machine, all_confs, batch_size=65536):
         :param all_confs: All possible configurations of the visible neurons
                           of the model
         :type all_confs: torch.Tensor
-        :param bathc_size: Amount of images employued in each computation step
+        :param batch_size: Amount of images employed in each computation step
 
         :returns float: Ground state energy of the model
     '''
