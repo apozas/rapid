@@ -8,7 +8,7 @@
 #           gc for garbage collection
 #           pytorch as ML framework
 #           tqdm for progress bar
-# Last modified: Oct, 2019
+# Last modified: Jul, 2020
 import gc
 import torch
 from itertools import combinations
@@ -78,7 +78,7 @@ def batch_nll(machine, batch, all_confs, bs=65536):
     logZ = log_partition_function(machine, bs, all_confs)
     size = len(batch)
     fe   = machine.free_energy(batch).sum()
-    return (fe + size * logZ).neg(), logZ
+    return (fe + size * logZ), logZ
 
 def create_bas(size):
     '''Generates the complete Bars and Stripes dataset of arbitrary size,
