@@ -11,7 +11,7 @@
 #           pytorch as ML framework
 #           matplotlib for plots
 #           tqdm for progress bar
-# Last modified: Oct, 2019
+# Last modified: Jul, 2020
 import gc
 import matplotlib.pyplot as plt
 import numpy as np
@@ -161,7 +161,7 @@ for epoch in range(epochs):
     for batch in tqdm(train_loader_other, desc=('Epoch ' + str(epoch + 1))):
         cost, _ = batch_nll(rbm_ex, batch, all_confs)
         opt_ex.zero_grad()
-        cost.neg().backward()    # We negate because gradient descent minimizes
+        cost.backward()
         opt_ex.step()
 
     # Ground state energy
