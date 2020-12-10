@@ -3,7 +3,7 @@
 ## Code to accompany *[Efficient training of energy-based models via spin-glass control](https://www.arxiv.org/abs/1910.01592)*
 #### Alejandro Pozas-Kerstjens, Gorka Muñoz-Gil, Miguel Angel García-March, Antonio Acín, Maciej Lewenstein, and Przemyslaw R. Grzybowski
 
-This is a repository containing the code for models with Restricted Axons and training via Pattern-InDuced correlations (RAPID), developed in the article "*Efficient training of energy-based models via spin-glass control*. Alejandro Pozas-Kerstjens, Gorka Muñoz-Gil, Miguel Angel García-March, Antonio Acín, Maciej Lewenstein, and Przemyslaw R. Grzybowski. [arXiv:1910.01592](https://www.arxiv.org/abs/1910.01592)."
+This is a repository containing the code for models with Restricted Axons and training via Pattern-InDuced correlations (RAPID), developed in the article "*Efficient training of energy-based models via spin-glass control*. Alejandro Pozas-Kerstjens, Gorka Muñoz-Gil, Eloy Piñol, Miguel Ángel García-March, Antonio Acín, Maciej Lewenstein, and Przemysław R. Grzybowski. [arXiv:1910.01592](https://www.arxiv.org/abs/1910.01592)."
 
 All code is written in Python.
 
