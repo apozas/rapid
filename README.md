@@ -19,8 +19,9 @@ Libraries required:
 Files: 
 
   - [comparison](https://github.com/apozas/rapid/blob/master/comparison.py): example of use. Trains restricted Boltzmann machines using commonplace samplers and via RAPID, and computes various indicators of quality of training.
+  
+  - [MNIST training](https://github.com/apozas/rapid/blob/master/MNIST%20training.ipynb): example of use. Trains an RA-RBM in the MNIST dataset.
 
   - [rapid](https://github.com/apozas/rapid/blob/master/rapid.py): contains the relevant classes.
   
-  - [utils](https://github.com/apozas/rapid/blob/master/utils.py): additional functions relevant for the example.
-  
+  - [utils](https://github.com/apozas/rapid/blob/master/utils.py): additional functions relevant for the example. 
